@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from './Component/Button';
 import Navbar from './Component/Nav';
-import Carousel from './Component/Carousel';
+import Slider from './Component/Slider';
 
-class Head extends Component{
-  render(){
-    return(
-      <p>what the</p>
-    );
-}
-}
+
+
 
 
 
@@ -20,11 +16,8 @@ class App extends Component{
   return (
     <div className="App">
       <Navbar></Navbar>
-      
-      <Head></Head>
-      
       <Button></Button>
-      <Carousel></Carousel>
+      <Slider></Slider>
     </div>
      );
   }
