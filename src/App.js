@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Button from './Component/Button';
 import Navbar from './Component/Nav';
 import Slider from './Component/Slider';
+import ImageCard from './Component/ImageCard';
 
 
 
@@ -16,8 +16,8 @@ class App extends Component{
   return (
     <div className="App">
       <Navbar></Navbar>
-      <Button></Button>
       <Slider></Slider>
+      <ImageCard></ImageCard>
     </div>
      );
   }
