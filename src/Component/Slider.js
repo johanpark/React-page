@@ -9,7 +9,7 @@ class Slider extends Component{
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
+              src="https://images.unsplash.com/photo-1596986589387-1f541e827e0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80"
               alt="First slide"
             />
             <Carousel.Caption>

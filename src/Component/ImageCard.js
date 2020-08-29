@@ -6,7 +6,7 @@ class ImageCard extends Component{
         return(
 
             <div class="container">
-            <h1>Gallery</h1>
+            <h1>Image gallery</h1>
           
             <div class="gallery-wrap">
               <div class="item item-1"></div>
