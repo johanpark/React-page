@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Component/Nav';
 import Slider from './Component/Slider';
 import ImageCard from './Component/ImageCard';
+import VideoPlay from './Component/Video';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component{
       <Navbar></Navbar>
       <Slider></Slider>
       <ImageCard></ImageCard>
+      <VideoPlay></VideoPlay>
     </div>
      );
   }

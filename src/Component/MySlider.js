@@ -4,10 +4,7 @@ import { Carousel, NavLink } from 'react-bootstrap'
 class MySlider extends Component{
     render()
     {
-        return(         
-            <link href ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"></link>
+        return(       
             <div id="myCarousel" class="carousel slide">
                   
                   <ol class="carousel-indicators">
