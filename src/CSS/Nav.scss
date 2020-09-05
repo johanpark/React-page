@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+//============
+//  VARIABLES
+//============
+$white: white;
+$black:rgb(0,0,0);
+$lightgray: lightgray;
+$skyblue: lightskyblue;
+//===================
+//    HEADER
+//===================
+header{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  nav{
+    font-family:sans-serif;
+    text-transform:uppercase;
+    background:rgba($black,.5);
+    ul{
+      list-style:none;
+      padding:0;
+      display:flex;
+      color:$white;
+      li{
+        cursor:pointer;
+        flex:1;
+        text-align:center;
+        line-height:1.9;
+        padding:.50em;
+        border-top:solid 2px transparent;
+        &:hover{
+          border-top-color:$skyblue;
+          color:$white;
+          background:$black;
+        }
+        .fa{
+          color:$skyblue !important;
+        }
+        h6{
+          font-size:.65em;
+        }
+      }
+    }
+  }
+}
+//===================
+//  NAVIGATION DOTS
+//===================
+#fp-nav ul li a span{
+  color:$white;
+}

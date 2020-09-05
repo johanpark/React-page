@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './CSS/Image.scss'
+import '../CSS/Image.scss'
 
 class ImageCard extends Component{
     render(){

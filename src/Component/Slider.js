@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Carousel } from 'react-bootstrap'
-import './CSS/Carousel.scss'
+import '../CSS/Carousel.scss'
 
 
 class Slider extends Component{
@@ -11,7 +11,7 @@ class Slider extends Component{
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("../Component/Image_src/olia-nayda-VPrJtXMySLg-unsplash.jpg")}
+              src={require("../Image_src/olia-nayda-VPrJtXMySLg-unsplash.jpg")}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +22,7 @@ class Slider extends Component{
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("../Component/Image_src/eric-mcnew-xXzJ6mpcdwY-unsplash.jpg")}
+              src={require("../Image_src/eric-mcnew-xXzJ6mpcdwY-unsplash.jpg")}
               alt="Third slide"
             />
         
@@ -34,7 +34,7 @@ class Slider extends Component{
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("../Component/Image_src/tom-chen-6DH6BojClJg-unsplash.jpg")}
+              src={require("../Image_src/tom-chen-6DH6BojClJg-unsplash.jpg")}
               alt="Third slide"
             />
             <Carousel.Caption>
